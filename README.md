@@ -7,18 +7,18 @@ This is a small experiment in putting a [HipChat](http://www.hipchat.com/) windo
 
 You'll need to modify /js/hipwall.js with your own account auth token and the room id that you want to show. You can get that info from the admin page on the HipChat site.
 
-`
-var HipWall = {
 
-	auth_token: 'abcdefghijklmnopqrstuvwxyz',
-	room_id: '54321',
-	date: 'recent',
-	timezone: 'Australia/ACT',
-	frequency: 5000
+	var HipWall = {
+	
+		auth_token: 'abcdefghijklmnopqrstuvwxyz',
+		room_id: '54321',
+		date: 'recent',
+		timezone: 'Australia/ACT',
+		frequency: 5000
+	
+	} 
 
-} 
 
-`
 
 The frequence is the number of milliseconds between polls. If it's too high, you will get throttled by the HipChat servers.
 
