@@ -1,0 +1,38 @@
+
+html {
+	height: 98%;
+}
+
+body {
+	height: 100%;
+	background-color: #0747A9;
+	color: white;
+}
+
+#chatlist {
+	height: 100%;
+}
+
+
+.chat {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	height: 23%;
+	width:99%;
+	margin-left:20px;
+}
+
+.chatmessage {
+	margin: 10px;
+	font-size: 40px;
+	line-height: 40px;
+}
+
+.chatauthor {
+	margin: 10px;
+	padding-bottom: 30px;
+	font-size: 30px;
+	line-height: 30px;
+	color: #3EC8EF;
+	
+
+}
